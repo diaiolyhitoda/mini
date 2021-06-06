@@ -2,7 +2,7 @@
  * Created by Administrator on 2015/3/20.
  */
 var express = require('express');
-var router = require('./router');
+var router = require('./lib/router');
 var app = express();
 var port = 8082;
 app.use('/', router);
